@@ -48,3 +48,74 @@ div.top_section {
     margin-top: 11px;
   }
 }
+div.bottom_section {
+  display: flex;
+  width: 635px;
+  height: 259px;
+
+  .left_side {
+    width: 317px;
+    height: 259px;
+    padding: 40px 40px 39px 40px;
+    background-color: #2ab3b1;
+    border-bottom-left-radius: 8px;
+
+    h2.subscription {
+      color: white;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 18px;
+    }
+    h2.price {
+      color: white;
+      font-size: 32px;
+      font-weight: 700;
+      margin: 18px 0 4px 0;
+      line-height: 26px;
+
+      span {
+        color: white;
+        opacity: 50%;
+        font-size: 16px;
+        font-weight: 400;
+      }
+    }
+    p {
+      color: white;
+      font-size: 15px;
+      font-weight: 400;
+    }
+    button {
+      width: 237px;
+      height: 48px;
+      border-radius: 5px;
+      background-color: #c0df33;
+      border: none;
+      color: white;
+      font-size: 16px;
+      font-weight: 700;
+      margin-top: 10px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+    }
+  }
+  .right_side {
+    width: 318px;
+    height: 259px;
+    padding: 40px;
+    background-color: #4abfbd;
+    border-bottom-right-radius: 8px;
+
+    h2 {
+      color: white;
+      font-size: 18px;
+      font-weight: 700;
+    }
+    p {
+      color: white;
+      opacity: 75%;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 20px;
+    }
+  }
+}
